@@ -1,8 +1,7 @@
-package com.tidyjava
+package com.tidyjava.context.spring
 
 import com.tidyjava.context.ContextExtension
-import com.tidyjava.context.SpringContext
-import com.tidyjava.order.OrderRef
+import com.tidyjava.context.OrderRef
 import org.springframework.context.ApplicationContext
 import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
@@ -17,6 +16,3 @@ class SpringApplication {
         orderRef.notExisting
     }
 }
-
-
-

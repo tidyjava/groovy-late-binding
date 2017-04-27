@@ -1,4 +1,6 @@
-package com.tidyjava.context
+package com.tidyjava.context.map
+
+import com.tidyjava.context.ContextExtension
 
 import java.util.concurrent.ConcurrentHashMap
 

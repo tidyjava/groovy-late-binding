@@ -1,8 +1,8 @@
-package com.tidyjava
+package com.tidyjava.context.map
 
-import com.tidyjava.order.OrderRef
-import com.tidyjava.order.OrderRepository
-import com.tidyjava.order.Postman
+import com.tidyjava.context.OrderRef
+import com.tidyjava.context.OrderRepository
+import com.tidyjava.postman.Postman
 
 import static com.tidyjava.context.ContextExtension.ctx
 
@@ -17,6 +17,3 @@ class MapApplication {
         orderRef.notExisting
     }
 }
-
-
-

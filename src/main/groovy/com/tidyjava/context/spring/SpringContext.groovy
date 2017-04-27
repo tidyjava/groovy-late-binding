@@ -1,5 +1,6 @@
-package com.tidyjava.context
+package com.tidyjava.context.spring
 
+import com.tidyjava.context.ContextExtension
 import org.springframework.beans.factory.NoSuchBeanDefinitionException
 import org.springframework.context.ApplicationContext
 

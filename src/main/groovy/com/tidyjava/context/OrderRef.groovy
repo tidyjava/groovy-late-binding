@@ -1,4 +1,4 @@
-package com.tidyjava.order
+package com.tidyjava.context
 
 class OrderRef {
     Long value
