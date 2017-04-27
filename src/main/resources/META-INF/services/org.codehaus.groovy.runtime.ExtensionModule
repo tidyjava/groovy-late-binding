@@ -1,0 +1,3 @@
+moduleName = context-module
+moduleVersion = 1.0
+extensionClasses = com.tidyjava.context.ContextExtension
