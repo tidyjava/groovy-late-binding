@@ -1,22 +1,22 @@
 package com.tidyjava.locator2;
 
-public class GossipGirl {
+public class Objects {
     private static Mailer mailer;
     private static CustomerRepository customerRepository;
 
-    public static Mailer getMailer() {
+    public static Mailer mailer() {
         return mailer;
     }
 
     public static void setMailer(Mailer mailer) {
-        GossipGirl.mailer = mailer;
+        Objects.mailer = mailer;
     }
 
-    public static Customer getCustomer(Long id) {
+    public static Customer customer(Long id) {
         return customerRepository.findById(id);
     }
 
     public static void setCustomerRepository(CustomerRepository customerRepository) {
-        GossipGirl.customerRepository = customerRepository;
+        Objects.customerRepository = customerRepository;
     }
 }

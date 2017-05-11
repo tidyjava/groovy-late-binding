@@ -1,5 +1,7 @@
 package com.tidyjava.locator2;
 
+import static com.tidyjava.locator2.Objects.mailer;
+
 public class Customer {
     private String firstName;
     private String email;
@@ -11,6 +13,6 @@ public class Customer {
 
     public void confirm(OrderConfirmation orderConfirmation) {
         orderConfirmation.fill(firstName, email);
-        GossipGirl.getMailer().send(orderConfirmation);
+        mailer().send(orderConfirmation);
     }
 }

@@ -1,5 +1,7 @@
 package com.tidyjava.locator2;
 
+import static com.tidyjava.locator2.Objects.customer;
+
 public class Order {
     private Long number;
     private Long customerId;
@@ -10,7 +12,7 @@ public class Order {
     }
 
     public void confirm() {
-        GossipGirl.getCustomer(customerId).confirm(createConfirmation());
+        customer(customerId).confirm(createConfirmation());
     }
 
     private OrderConfirmation createConfirmation() {
